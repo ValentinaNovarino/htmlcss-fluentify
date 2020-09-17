@@ -312,17 +312,21 @@ nav {
     text-decoration: none;
     font-weight: 500;
 }
+.text-info.mobile a:hover {
+    color: rgba(100,222,130,0.7);
+}
 
 #mobile {
     position: relative;
     width: 50%;
     float: left;
-    display: block;
 }
 
 #mobile img {
     position: absolute;
     left: 100px;
+    top: 3px;
+    display: block;
 }
 /*---------------fine info-mobile---------------*/
 /*---------------inizio info-security----------------*/
