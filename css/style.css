@@ -325,3 +325,25 @@ nav {
     left: 100px;
 }
 /*---------------fine info-mobile---------------*/
+/*---------------inizio info-security----------------*/
+.info-security {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.computer {
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+
+.computer img {
+    position: relative;
+    left: 129px;
+}
+
+.text-info.computer {
+    width: 50%;
+    float: left;
+    padding-top: 121px;
+}
+/*----------------fine info-security-----------------*/
