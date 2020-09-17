@@ -191,7 +191,7 @@ nav {
 /*--------------fine header--------------*/
 /*--------------inizio main---------------*/
 /*--------------inizio info---------------*/
-#info {
+.info {
     margin-top: 50px;
     margin-bottom: 50px;
     padding-top: 50px;
@@ -214,7 +214,6 @@ nav {
 .text-info {
     width: 50%;
     float: left;
-    display: inline-block;
 }
 
 .text-info h2 {
@@ -248,3 +247,39 @@ nav {
     padding: 0px;
 }
 /*----------------fine info----------------*/
+/*----------------inizio technical info-----------------*/
+.info.technical-info {
+    padding-bottom: 0px;
+}
+
+#technical-info h2 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(114, 114, 114);
+}
+
+#devices, #profile, #browser {
+    float: left;
+    width: calc(100% / 3);
+    padding: 0 15px;
+}
+
+#devices img, #profile img, #browser img {
+    position: relative;
+    left: 136px;
+}
+
+#devices h3, #profile h3, #browser h3 {
+    font-size: 27px;
+    color: rgb(0, 26, 79);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#devices p, #profile p, #browser p  {
+    text-align: center;
+    color: rgb(114, 114, 114);
+    font-size: 18px;
+}
+/*---------------fine technical info---------------*/
