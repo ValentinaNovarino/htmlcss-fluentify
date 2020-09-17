@@ -283,3 +283,45 @@ nav {
     font-size: 18px;
 }
 /*---------------fine technical info---------------*/
+/*---------------inizio info-mobile---------------*/
+.info-mobile {
+    background-color: rgb(0, 26, 79);
+}
+
+.text-info.mobile {
+    display: inline-block;
+    float: left;
+    padding-top: 87px;
+    padding-bottom: 87px;
+}
+
+.text-info.mobile h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.text-info.mobile p {
+    color: white;
+    margin-bottom: 20px;
+    border: none;
+    padding-bottom: 0px;
+}
+
+.text-info.mobile a {
+    color:  #64DE82;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#mobile {
+    position: relative;
+    width: 50%;
+    float: left;
+    display: block;
+}
+
+#mobile img {
+    position: absolute;
+    left: 100px;
+}
+/*---------------fine info-mobile---------------*/
